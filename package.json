@@ -1,0 +1,27 @@
+{
+  "name": "pact-simple-consumer",
+  "version": "1.0.0",
+  "description": "JS example with Pact contract testing",
+  "scripts": {
+    "test:pact:consumer": "./node_modules/.bin/mocha --timeout 5000 test/consumerPact.spec.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/oleksii-popov/pact-simple-consumer.git"
+  },
+  "keywords": [
+    "pact",
+    "testing",
+    "contract",
+    "testing"
+  ],
+  "author": "Oleksii Popov",
+  "license": "ISC",
+  "homepage": "https://github.com/oleksii-popov/pact-simple-consumer#readme",
+  "dependencies": {
+    "chai": "^4.1.2",
+    "chai-as-promised": "^7.1.1",
+    "pact": "^4.3.2",
+    "superagent": "^3.8.3"
+  }
+}
