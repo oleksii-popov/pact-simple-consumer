@@ -3,7 +3,7 @@ const path = require('path')
 const chaiAsPromised = require('chai-as-promised')
 const pact = require('pact')
 const expect = chai.expect
-const API_PORT = 9130
+const API_PORT = 9230
 const {
   okapiRequest
 } = require('../client')

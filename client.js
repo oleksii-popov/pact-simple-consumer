@@ -1,6 +1,6 @@
 const request = require('superagent')
 const API_HOST = process.env.API_HOST || 'http://localhost'
-const API_PORT = process.env.API_PORT || 9130
+const API_PORT = process.env.API_PORT || 9230
 const API_ENDPOINT = `${API_HOST}:${API_PORT}`
 
 const okapiRequest = function () {

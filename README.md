@@ -7,7 +7,7 @@ npm i
 ```
 
 # Usage
-Run test script with a commend:
+Run test script with a command:
 ```
 npm run "test:pact:consumer"
 ```
